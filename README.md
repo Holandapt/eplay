@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# 🎮 Eplay - Plataforma de E-commerce de Jogos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Uma aplicação web completa de e-commerce focada na venda e navegação de jogos digitais, construída com React e TypeScript.
 
-## Available Scripts
+![Vercel Status](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Podes aceder e testar a aplicação publicada na Vercel:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+👉 **[Aceder ao Eplay na Vercel](https://SEU-LINK-DA-VERCEL-DO-EPLAY.vercel.app)** 👈
 
-### `npm test`
+*(Nota: Substitui o link acima pelo URL real da Vercel deste projeto)*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📌 Sobre o Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O **Eplay** é um e-commerce interativo desenvolvido para a exibição, navegação e simulação de compra de jogos de vídeo. A plataforma conta com destaques de lançamentos, promoções, galerias de mídia (mídia/trailers), carrinho de compras e um fluxo simplificado de checkout.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ✨ Funcionalidades Principais:
+- 🎮 **Catálogo de Jogos:** Navegação por categorias (Ação, RPG, Esportes, Lançamentos, Em Breve).
+- 🎬 **Galeria de Mídia:** Exibição de screenshots e trailers dos jogos em destaque.
+- 🛒 **Carrinho de Compras:** Gestão dinâmica de itens com atualização em tempo real dos valores.
+- 💳 **Checkout Otimizado:** Formulário de pagamento e confirmação de pedido.
+- 📱 **Interface Responsiva:** Design limpo e adaptado a múltiplos dispositivos.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tecnologias Utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Front-end:** [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/)
+- **Estilização:** Styled Components / CSS Modules
+- **Gerenciamento de Estado:** Redux Toolkit / React Context
+- **Linter & Formatação:** ESLint, Prettier, EditorConfig
+- **Deploy:** [Vercel](https://vercel.app/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 💻 Como Executar o Projeto Localmente
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Pré-requisitos
+Asegura-te de ter o [Node.js](https://nodejs.org/) instalado na tua máquina.
 
-## Learn More
+```bash
+# 1. Clona este repositório
+$ git clone [https://github.com/Holandapt/eplay.git](https://github.com/Holandapt/eplay.git)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 2. Entra na pasta do projeto
+$ cd eplay
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 3. Instala as dependências
+$ npm install
+
+# 4. Inicia o servidor de desenvolvimento
+$ npm start
+# ou
+$ npm run dev
