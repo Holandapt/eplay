@@ -2,19 +2,8 @@
 
 > Uma aplicação web completa de e-commerce focada na venda e navegação de jogos digitais, construída com React e TypeScript.
 
-![Vercel Status](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-
----
-
-## 🚀 Live Demo
-
-Podes aceder e testar a aplicação publicada na Vercel:
-
-👉 **[Aceder ao Eplay na Vercel](https://SEU-LINK-DA-VERCEL-DO-EPLAY.vercel.app)** 👈
-
-*(Nota: Substitui o link acima pelo URL real da Vercel deste projeto)*
 
 ---
 
@@ -37,7 +26,6 @@ O **Eplay** é um e-commerce interativo desenvolvido para a exibição, navegaç
 - **Estilização:** Styled Components / CSS Modules
 - **Gerenciamento de Estado:** Redux Toolkit / React Context
 - **Linter & Formatação:** ESLint, Prettier, EditorConfig
-- **Deploy:** [Vercel](https://vercel.app/)
 
 ---
 
@@ -48,7 +36,7 @@ Asegura-te de ter o [Node.js](https://nodejs.org/) instalado na tua máquina.
 
 ```bash
 # 1. Clona este repositório
-$ git clone [https://github.com/Holandapt/eplay.git](https://github.com/Holandapt/eplay.git)
+$ git clone https://github.com/Holandapt/eplay.git
 
 # 2. Entra na pasta do projeto
 $ cd eplay
@@ -57,6 +45,22 @@ $ cd eplay
 $ npm install
 
 # 4. Inicia o servidor de desenvolvimento
+
 $ npm start
 # ou
 $ npm run dev
+```
+
+---
+
+## 🤝 Créditos & Projeto Base
+Este projeto foi desenvolvido como um fork aprimorado a partir do repositório base de 
+@ogiansouza.
+
+Agradecimento ao autor original pela disponibilização da estrutura inicial!
+
+---
+
+## 👨‍💻 Autor
+Desenvolvido por **Lucas Almeida** (@Holandapt)  
+- **GitHub:** [@Holandapt](https://github.com/Holandapt)
